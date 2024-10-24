@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-class Array {
+class IntArray {
 	int *arr;
 	int size;
 	int capacity;
 
 public:
-	Array(int cap = 100) : arr(0), size(0), capacity(cap) {
+	IntArray(int cap = 100) : arr(0), size(0), capacity(cap) {
 		arr = new int[capacity];
 	}
-	~Array() {
+	~IntArray() {
 		delete [] arr;
 	}
 	void Add(int data) {
@@ -30,7 +30,7 @@ public:
 };
 
 int main() {
-	Array ar(10);
+	IntArray ar(10);
 
 	ar.Add(10);
 	ar.Add(20);
@@ -39,7 +39,7 @@ int main() {
 	cout << ar[0] << endl;
 	cout << endl;
 
-	const Array &ar2 = ar;
+	const IntArray &ar2 = ar;
 	cout << ar2[0] << endl;
 	cout << endl;
 
