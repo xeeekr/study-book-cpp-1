@@ -4,3 +4,4 @@ project(study_book_cpp_1)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(./ch01)
+add_subdirectory(./ch02)
