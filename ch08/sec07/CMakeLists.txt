@@ -1,0 +1,8 @@
+add_executable(ch08-83 ch08-83.cpp)
+add_executable(ch08-82 ch08-82.cpp)
+add_executable(ch08-81 ch08-81.cpp)
+add_executable(ch08-80 ch08-80.cpp)
+add_executable(ch08-79 ch08-79.cpp)
+add_executable(ch08-78 ch08-78.cpp)
+add_executable(ch08-77 ch08-77.cpp)
+add_executable(ch08-76 ch08-76.cpp)
